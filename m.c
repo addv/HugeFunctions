@@ -28,6 +28,7 @@ int main(int argc, char* argv[])
 
 	p(0);
 	p(1);
+	p(3);
 	p(0x3412);
 
 	printf("ok!\n");
