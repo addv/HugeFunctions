@@ -1,3 +1,5 @@
+#include <stdio.h>
+typedef unsigned short uint16_t;
 void mc_75_30(uint16_t w) {printf("%.4x\n", w);}
 void mc_75_31(uint16_t w) {printf("%.4x\n", w);}
 void mc_75_32(uint16_t w) {printf("%.4x\n", w);}
