@@ -15,7 +15,7 @@ void mc_00_00(uint16_t w) {printf("%.4x\n", w);}
 void mc_00_01(uint16_t w) {printf("00   01\n");}
 //void mc_12_34(uint16_t w) {printf("12   34\n");}
 
-static f_t fun_arr[65536] = {mc_00_00, mc_00_01};
+static f_t fun_arr[65536] = {mc_00_00, mc_00_01, mc_00_03, mc_00_03};
 
 void p(uint16_t w)
 {
